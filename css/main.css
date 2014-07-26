@@ -1,6 +1,5 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -15,6 +14,8 @@ body {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
+  padding: 25px 35px 0 35px;
+  background:#2D97BA;
 }
 /* Make the masthead heading the same height as the navigation */
 .header .text-muted{
@@ -24,6 +25,19 @@ body {
   margin-bottom: 0;
   line-height: 40px;
   padding-bottom: 19px;
+  color:#FFF;
+}
+
+.nav > li > a {
+  color:#FFF;
+}
+
+.nav > li > a:hover {
+  color:#2D97BA;
+}
+
+.nav > li.active > a{
+  background:pink;
 }
 
 /* Custom page footer */
@@ -63,6 +77,10 @@ body {
   text-shadow: 1px 1px #000;
 }
 
+.jumbotron h2 {
+  margin-top:200px;
+}
+
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
@@ -82,15 +100,12 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
-  .header,
   .marketing,
   .footer {
     padding-left: 0;
     padding-right: 0;
   }
   /* Space out the masthead */
-  .header {
-  }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
