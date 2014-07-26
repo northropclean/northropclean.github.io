@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
+    <title>Northrop Clean</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 25 Jul 2014 19:42:07 -0400</pubDate>
-    <lastBuildDate>Fri, 25 Jul 2014 19:42:07 -0400</lastBuildDate>
+    <link>http://northropclean.github.io/</link>
+    <atom:link href="http://northropclean.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 26 Jul 2014 11:51:34 -0400</pubDate>
+    <lastBuildDate>Sat, 26 Jul 2014 11:51:34 -0400</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
       <item>
@@ -26,8 +26,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Fri, 25 Jul 2014 15:41:04 -0400</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/07/25/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/07/25/welcome-to-jekyll/</guid>
+        <link>http://northropclean.github.io/jekyll/update/2014/07/25/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://northropclean.github.io/jekyll/update/2014/07/25/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
