@@ -118,3 +118,26 @@ body {
     border-bottom: 0;
   }
 }
+
+.quote-form {
+  width: 350px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 10%;
+  background:pink;
+  padding:15px;
+  text-align:right;
+}
+
+.modal-back {
+  position:absolute;
+  height:100%;
+  width:100%;
+  background: rgba(0,0,0,0.8);
+  top:0;
+  left:0;
+}
+
+.form-instruct {
+  text-align:left;
+}

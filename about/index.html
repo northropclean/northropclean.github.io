@@ -32,7 +32,7 @@
     <div class="jumbowrap">
   <div class="jumbotron">
     <h2>Real clean, every time.</h2>
-    <p><a class="btn btn-lg btn-success" href="#" role="button">Get a quote!</a></p>
+    <p><a class="quote-btn btn btn-lg btn-success" href="#" role="button">Get a quote!</a></p>
   </div>
 </div>
 
@@ -84,10 +84,47 @@
 <!-- </div> -->
 
 
+    <div class="modal-back">
+  <div class="quote-form">
+    <div class="form-instruct">
+      <p>Schedule an appointment to receive a quote for services by filling out the form below.</p>
+      <p>We will reach out to you as soon as possible.</p>
+      <hr>
+    </div>
+    <form action="http://getsimpleform.com/messages?form_api_token=db672aa019a78288f650b39e8c3c52c5" method="post">
+    <!-- <form action="http://getsimpleform.com/messages?form_api_token=1061227edcd0c878675063005ab01b8e" method="post"> -->
+    <input type='hidden' name='redirect_to' value='http://0.0.0.0:4000' />
+
+    <p>Name:  <input type='text' name='Name' /></p>
+    <p>Email: <input type='text' name='Email' /></p>
+    <p>Phone: <input type='text' name='Phone' /></p>
+    <p>Best time for Contact: <input type='text' name='Best to for contact' /></p>
+
+    <p>Additional Information: <textarea name="message"></textarea></p>
+    <p>
+      <a class="cancel" href="#">Cancel </a> |
+      <input type='submit' value='Submit' /></p>
+    </form>
+  </div>
+</div>
+
+
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      modal = $('.modal-back')
+      modal.hide();
+
+      $('.quote-btn').click(function(){
+        modal.show();
+      });
+
+      $('.cancel').click(function(){
+        modal.hide();
+      });
+    </script>
     </body>
 </html>
